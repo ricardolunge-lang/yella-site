@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Seja Leve For Women · Intestino de Magra</title>
+<style>
+@font-face{font-family:Poppins;font-weight:400;src:url(img/poppins-latin-400-normal.woff2)}
+@font-face{font-family:Poppins;font-weight:500;src:url(img/poppins-latin-500-normal.woff2)}
+@font-face{font-family:Poppins;font-weight:600;src:url(img/poppins-latin-600-normal.woff2)}
+@font-face{font-family:Poppins;font-weight:700;src:url(img/poppins-latin-700-normal.woff2)}
+@font-face{font-family:Julius;src:url(img/julius.woff2)}
+:root{--bege:#F3ECE1;--bege2:#E9DFCF;--cinza:#EEEEEC;--cinza2:#D9D8D4;--amarelo:#FFD23F;--tinta:#2B2A27;--suave:#6E6A63}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Poppins,sans-serif;color:var(--tinta);background:#FBF8F3;font-size:16px;line-height:1.6}
+h1,h2,h3{font-family:Julius,Poppins,sans-serif;font-weight:400;letter-spacing:.02em;line-height:1.15}
+h2{font-size:clamp(28px,3.4vw,46px);margin-bottom:18px}
+.wrap{max-width:1240px;margin:0 auto;padding:0 32px}
+section{padding:96px 0}
+.eb{display:inline-block;font-size:12px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--suave);margin-bottom:16px}
+.eb:before{content:"";display:inline-block;width:22px;height:2px;background:var(--amarelo);vertical-align:middle;margin-right:10px}
+.sub{color:var(--suave);max-width:640px}
+.btn{display:block;width:100%;background:var(--amarelo);color:var(--tinta);font-weight:600;font-size:15px;letter-spacing:.06em;text-transform:uppercase;text-align:center;padding:19px 24px;border-radius:999px;border:0;text-decoration:none}
+.photo{border-radius:20px;overflow:hidden;background:var(--bege2)}.photo img{width:100%;height:100%;object-fit:cover;display:block}
+/* topbar */
+.bar{background:var(--tinta);color:#fff;text-align:center;font-size:13px;padding:9px;letter-spacing:.04em}.bar b{color:var(--amarelo)}
+header{background:#FBF8F3;border-bottom:1px solid var(--cinza2)}header .wrap{display:flex;justify-content:space-between;align-items:center;height:72px}
+.logo{font-family:Julius;font-size:26px;letter-spacing:.3em}.logo span{color:#E9B400}
+nav{display:flex;gap:28px;font-size:14px;color:var(--suave)}
+/* hero */
+.hero{padding:48px 0 80px;background:var(--bege)}
+.hero .wrap{display:grid;grid-template-columns:1.05fr 1fr;gap:56px;align-items:start}
+.gal{display:grid;grid-template-columns:1fr 1fr;gap:12px}.gal .photo:first-child{grid-column:1/3;aspect-ratio:1/1.05}.gal .photo{aspect-ratio:1}
+.stars{color:#E9B400;letter-spacing:2px}.rate{font-size:14px;color:var(--suave);margin-bottom:14px}
+.tag{display:inline-block;background:#fff;border:1px solid var(--cinza2);border-radius:999px;font-size:12px;font-weight:500;padding:6px 14px;margin-bottom:16px}
+.hero h1{font-size:clamp(30px,3.2vw,44px);margin-bottom:22px}
+.bul{list-style:none;margin-bottom:28px}.bul li{padding:9px 0 9px 32px;position:relative;border-bottom:1px solid var(--cinza2);font-size:15px}
+.bul li:before{content:"✓";position:absolute;left:0;top:9px;width:20px;height:20px;border-radius:50%;background:var(--amarelo);font-size:11px;font-weight:700;text-align:center;line-height:20px}
+.step{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;margin:22px 0 10px}.step small{font-weight:400;text-transform:none;letter-spacing:0;color:var(--suave)}
+.flav{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.flav div{display:flex;align-items:center;gap:10px;background:#fff;border:1.5px solid var(--cinza2);border-radius:14px;padding:10px 14px;font-weight:500}.flav img{width:44px}
+.flav .on{border-color:var(--tinta)}
+.kit{background:#fff;border:1.5px solid var(--cinza2);border-radius:16px;padding:16px 18px;margin-bottom:10px;position:relative}
+.kit.on{border:2px solid var(--tinta);background:#FFFDF5}
+.kit .t{display:flex;justify-content:space-between;font-weight:600}.kit .t span:last-child{font-size:20px}
+.kit p{font-size:13px;color:var(--suave)}.kit .ok{color:var(--tinta);font-size:13px}
+.badge{position:absolute;top:-11px;right:16px;background:var(--amarelo);font-size:11px;font-weight:700;letter-spacing:.08em;padding:3px 10px;border-radius:999px}
+.badge.g{background:var(--cinza2)}
+.dica{font-size:12.5px;background:var(--cinza);padding:10px 12px;border-radius:10px;margin-top:8px}
+.seals{display:flex;justify-content:space-between;font-size:12px;color:var(--suave);margin-top:14px}
+/* prova */
+.prova{background:#fff}.vids{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:36px}
+.vid{aspect-ratio:9/14;border-radius:18px;position:relative;overflow:hidden}.vid img{width:100%;height:100%;object-fit:cover}
+.vid:after{content:"▶";position:absolute;inset:auto auto 16px 16px;width:44px;height:44px;border-radius:50%;background:rgba(255,255,255,.9);text-align:center;line-height:44px;font-size:14px}
+/* começo */
+.two{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.num{list-style:none;margin-top:28px}.num li{display:grid;grid-template-columns:56px 1fr;padding:16px 0;border-top:1px solid var(--cinza2)}
+.num b{font-family:Julius;font-size:24px;color:#C9A200}
+/* produto */
+.produto{background:var(--cinza)}
+.specs{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:28px}
+.spec{background:#fff;border-radius:16px;padding:22px}.spec h3{font-family:Poppins;font-weight:600;font-size:14px;letter-spacing:.1em;text-transform:uppercase;margin-bottom:8px}.spec p{font-size:14px;color:var(--suave)}
+/* benefícios */
+.bens{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-top:36px}
+.ben{background:var(--bege);border-radius:18px;padding:26px 20px}.ben i{display:block;width:38px;height:38px;border-radius:50%;background:var(--amarelo);margin-bottom:18px;font-style:normal;text-align:center;line-height:38px;font-weight:700}
+.ben h3{font-family:Poppins;font-weight:600;font-size:16px;margin-bottom:8px}.ben p{font-size:13.5px;color:var(--suave)}
+.legal{font-size:12px;color:var(--suave);margin-top:20px}
+/* fórmula */
+.formula{background:var(--bege)}
+.grp{background:#fff;border-radius:16px;padding:20px 22px;margin-bottom:12px}.grp h3{font-family:Poppins;font-weight:600;font-size:16px;margin-bottom:6px}.grp p{font-size:14px;color:var(--suave)}.grp em{display:block;font-style:normal;font-size:13px;margin-top:8px}.grp em b{background:var(--amarelo);padding:1px 6px;border-radius:4px}
+details{border-top:1px solid var(--cinza2);padding:18px 0}details summary{font-weight:600;cursor:pointer;list-style:none;display:flex;justify-content:space-between}details summary:after{content:"+";font-size:22px;line-height:1}details[open] summary:after{content:"–"}details p{margin-top:10px;color:var(--suave);font-size:14.5px}
+/* ciência */
+.vias{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:28px}.via{border:1px solid var(--cinza2);border-radius:16px;padding:22px}.via small{font-weight:600;letter-spacing:.1em;color:#C9A200;text-transform:uppercase;font-size:12px}.via h3{font-family:Poppins;font-weight:600;font-size:16px;margin:4px 0 6px}.via p{font-size:14px;color:var(--suave)}
+/* modo de uso */
+.uso{background:var(--tinta);color:#fff}.uso .eb{color:#BDB8AE}.uso .sub{color:#BDB8AE}
+.passos{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:36px}.passo{border-top:2px solid var(--amarelo);padding-top:18px}.passo b{font-family:Julius;font-size:40px;color:var(--amarelo);display:block}.passo h3{font-family:Poppins;font-weight:600;font-size:16px;margin:6px 0}.passo p{font-size:14px;color:#CFCAC0}
+/* timeline */
+.tl{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:40px;position:relative}
+.tl:before{content:"";position:absolute;left:0;right:0;top:9px;height:2px;background:var(--cinza2)}
+.tl div{padding-right:22px;position:relative}.tl div:before{content:"";display:block;width:20px;height:20px;border-radius:50%;background:var(--amarelo);border:4px solid #FBF8F3;box-shadow:0 0 0 1px var(--cinza2);margin-bottom:18px;position:relative}
+.tl small{font-weight:600;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--suave)}.tl h3{font-family:Poppins;font-weight:600;font-size:16px;margin:4px 0 8px}.tl p{font-size:14px;color:var(--suave)}
+/* tabela */
+.comp{background:var(--cinza)}
+table{width:100%;border-collapse:separate;border-spacing:0;margin-top:32px;background:#fff;border-radius:18px;overflow:hidden;font-size:14.5px}
+th,td{padding:16px 18px;text-align:center;border-bottom:1px solid var(--cinza)}th:first-child,td:first-child{text-align:left}
+th{font-weight:600;font-size:13px;letter-spacing:.04em}th.y,td.y{background:#FFF6D6}th.y{background:var(--amarelo)}
+td.y{font-weight:700;font-size:18px}td.n{color:#A9A59D}
+/* oferta */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:36px;align-items:stretch}
+.card{background:#fff;border:1.5px solid var(--cinza2);border-radius:22px;padding:28px 24px;position:relative;display:flex;flex-direction:column}
+.card.on{border:2px solid var(--tinta);background:#FFFDF5;transform:translateY(-10px)}
+.card .ph{aspect-ratio:4/3;border-radius:14px;overflow:hidden;margin-bottom:18px;background:var(--bege)}.card .ph img{width:100%;height:100%;object-fit:cover}
+.card h3{font-family:Poppins;font-weight:600;font-size:18px}.card .s{font-size:13px;color:var(--suave)}
+.de{font-size:13px;color:var(--suave);text-decoration:line-through;margin-top:14px}.por{font-size:30px;font-weight:700}.por small{font-size:13px;font-weight:400;color:var(--suave)}
+.card ul{list-style:none;margin:16px 0 22px;font-size:13.5px;flex:1}.card li{padding:5px 0}.card li:before{content:"✓  ";font-weight:700;color:#C9A200}
+/* avaliações */
+.revtop{display:flex;align-items:end;justify-content:space-between;gap:20px}
+.score{text-align:right}.score b{font-size:44px;font-weight:600;display:block;line-height:1}
+.revs{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:32px}.rev{background:var(--bege);border-radius:18px;padding:24px}.rev h3{font-family:Poppins;font-weight:600;font-size:15.5px;margin:8px 0}.rev p{font-size:14px;color:var(--suave)}.rev cite{display:block;font-style:normal;font-size:12.5px;font-weight:500;margin-top:12px}
+.verif{font-size:11px;background:#fff;padding:2px 8px;border-radius:99px;margin-left:6px;color:var(--suave)}
+/* faq */
+.faq{background:var(--cinza)}.faq .two{align-items:start}
+/* confiança */
+.trust{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:28px}.tr{border:1px solid var(--cinza2);border-radius:16px;padding:22px}.tr h3{font-family:Poppins;font-weight:600;font-size:16px;margin-bottom:6px}.tr p{font-size:14px;color:var(--suave)}
+.final{background:var(--bege);padding:0}.final .wrap{display:grid;grid-template-columns:1fr 1fr;gap:0;padding:0}
+.final .txt{padding:80px 56px}.final .photo{border-radius:0}
+.preco{background:#fff;border-radius:14px;padding:16px 18px;margin:22px 0;font-size:14.5px}
+footer{background:var(--tinta);color:#BDB8AE;font-size:12.5px;padding:40px 0;text-align:center}footer .logo{color:#fff;margin-bottom:10px}
+@media (max-width:900px){
+ .wrap{padding:0 18px}section{padding:64px 0}nav{display:none}
+ .hero .wrap,.two,.final .wrap{grid-template-columns:1fr;gap:32px}
+ .vids{grid-template-columns:1fr 1fr}.specs,.cards,.trust,.vias{grid-template-columns:1fr}
+ .bens,.revs{grid-template-columns:1fr}.passos{grid-template-columns:1fr 1fr}
+ .tl{grid-template-columns:1fr;gap:22px}.tl:before{display:none}
+ table{font-size:12px}th,td{padding:12px 8px}
+ .card.on{transform:none}.revtop{display:block}.score{text-align:left;margin-top:14px}
+ .final .txt{padding:56px 18px}.final .photo{aspect-ratio:1}
+}
+
+/* ===== v2: estilo Forma Studio ===== */
+@font-face{font-family:NotoSD;font-weight:100 900;src:url(img/noto-serif-display.woff2)}
+:root{--bege:#EFE6D8;--bege2:#E6DCCB;--cinza:#ECEDEE;--cinza2:#DCDDDE;--amarelo:#FFD23F;--amarelo-claro:#FFF3C4;--tinta:#18181A;--suave:#5E5E62}
+body{background:#fff;font-weight:400;font-size:15px}
+h1,h2,h3{font-family:NotoSD,serif;font-weight:400;letter-spacing:-.01em;text-transform:none}
+h1{font-size:clamp(38px,4.4vw,64px)!important;line-height:1.05}
+h2{font-size:clamp(30px,2.8vw,40px);line-height:1.12}
+.ben h3,.grp h3,.via h3,.passo h3,.tl h3,.card h3,.rev h3,.tr h3,.spec h3{font-family:NotoSD,serif;font-weight:400;font-size:21px;letter-spacing:0;text-transform:none}
+.eb{font-size:13px;font-weight:400;letter-spacing:0;text-transform:none;color:var(--tinta);margin-bottom:8px}.eb:before{display:none}
+.wrap{max-width:1408px;padding:0 48px}
+section{padding:72px 0}
+.blk{margin:0 16px;border-radius:24px}
+.produto,.comp,.faq,.formula{margin:0 16px;border-radius:24px}
+.uso{margin:0 16px;border-radius:24px;background:var(--tinta)}
+.btn{border-radius:999px;text-transform:none;letter-spacing:0;font-weight:500;padding:16px 26px}
+.btn.out{background:transparent;border:1px solid var(--tinta)}
+.photo,.vid,.card .ph{border-radius:24px}
+.ben,.rev,.spec,.grp,.via,.tr,.card,.kit{border-radius:24px}
+.ben{background:#fff;border:1px solid var(--cinza2)}
+.rev{background:#fff;border:1px solid var(--cinza2)}
+.card.on{background:var(--amarelo-claro);border:0;transform:none}.card{border:0}
+.cardswrap{background:var(--cinza);border-radius:24px;padding:56px 40px;margin-top:28px}
+.cardswrap .cards{margin-top:0}
+.num b,.passo b{font-family:NotoSD,serif}
+.logo{font-family:NotoSD,serif;letter-spacing:.12em;font-size:24px}
+header{border:0}header .wrap{height:84px}
+.pill{display:inline-block;border:1px solid var(--tinta);border-radius:999px;padding:8px 18px;font-size:14px}
+details{background:#fff;border:0;border-radius:999px;padding:14px 24px;margin-bottom:10px}details[open]{border-radius:22px}
+.faq{background:var(--cinza)}
+/* hero Forma */
+.fhero{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:0 16px}
+.fhero .l{background:var(--bege);border-radius:24px;padding:56px 56px 48px}
+.fhero .r{border-radius:24px;overflow:hidden;min-height:620px}.fhero .r img{width:100%;height:100%;object-fit:cover}
+.stats{margin:12px 16px 0;background:var(--cinza);border-radius:24px;display:grid;grid-template-columns:repeat(4,1fr) 1.6fr;align-items:center;padding:36px 56px;gap:20px}
+.stats div b{font-family:NotoSD,serif;font-weight:400;font-size:48px;display:block;line-height:1}.stats div span{font-size:13px;color:var(--suave)}
+.stats p{border-left:1px solid #BFC0C2;padding-left:32px;font-size:14px;color:var(--suave)}
+.final{margin:0 16px;border-radius:24px;overflow:hidden;background:var(--tinta);color:#fff}.final .sub{color:#C8C8CC}.final .eb{color:#C8C8CC}.final .preco{background:#2A2A2D;color:#fff}
+@media (max-width:900px){.fhero{grid-template-columns:1fr}.fhero .l{padding:36px 22px}.fhero .r{min-height:420px}.stats{grid-template-columns:1fr 1fr;padding:28px 22px}.stats p{grid-column:1/3;border:0;padding:0}.wrap{padding:0 22px}.cardswrap{padding:28px 16px}}
+</style></head><body>
+<div class="bar">Frete grátis no kit <b>Leve 2, Ganhe +1</b> · 12% de cashback · em até 12x</div>
+<header><div class="wrap"><img src="img/logo_d.png" alt="Yella" style="height:26px"><nav><span>Seja Leve</span><span>Fórmula</span><span>Como usar</span><span>Avaliações</span><span>Dúvidas</span></nav><span style="font-size:14px">Sacola (0)</span></div></header>
+
+<!-- 1 HERO -->
+<section style="padding:0">
+<div class="fhero"><div class="l">
+  <div class="rate"><span class="stars" style="color:#18181A">★★★★★</span> 4,9 · 1.847 avaliações · 98% recomendam</div>
+  <span class="tag">Shot Prebiótico Matinal · Seja Leve For Women</span>
+  <h1>O segredo não é fechar a boca. É ter um Intestino de Magra.</h1>
+  <ul class="bul">
+   <li>7,8g de Inulina Prebiótica que alimenta seletivamente as bactérias boas</li>
+   <li>Ativação natural do GLP-1 (hormônio da saciedade) via produção de Butirato</li>
+   <li>11 ativos naturais que desinflamam a parede intestinal sem efeito laxante</li>
+   <li>Mais energia limpa durante o dia e menos compulsão por doces à tarde</li>
+  </ul>
+  <div class="step">Passo 1 · Escolha o sabor <small>— adoçado com stévia · zero açúcar</small></div>
+  <div class="flav"><div class="on"><img src="img/can_a.png">Abacaxi</div><div><img src="img/can_l.png">Limão</div></div>
+  <div class="step">Passo 2 · Escolha seu kit</div>
+  <div class="kit"><div class="t"><span>1 Pote</span><span>R$ 186,00</span></div><p>22 doses · 1 mês de rotina · 12x de R$ 19,01 · Cashback 12% (R$ 22,32)</p></div>
+  <div class="kit on"><span class="badge">MAIS ESCOLHIDO</span><div class="t"><span>Leve 2, Ganhe +1</span><span>R$ 360,00</span></div><p>3 potes · 90 dias · 12x de R$ 36,80 · R$ 120,00 por pote · Cashback 12% (R$ 43,20)</p><p class="ok">✓ Frete grátis &nbsp; ✓ 1 pote inteiro de presente (cobre o ciclo completo da flora)</p></div>
+  <div class="kit"><span class="badge g">MELHOR CUSTO POR POTE</span><div class="t"><span>Leve 3, Ganhe +1</span><span>R$ 465,00</span></div><p>4 potes · 120 dias · 12x de R$ 47,53 · R$ 116,25 por pote · Cashback 12% (R$ 55,80)</p><p class="ok">✓ Frete grátis &nbsp; ✓ 1 pote de presente + máxima economia por dose</p></div>
+  <div class="dica">Dica: levando o kit Leve 2, Ganhe +1 você garante 90 dias de microbiota nutrida e ganha Frete Grátis.</div>
+  <div style="height:18px"></div><a class="btn" href="#">Quero construir meu Intestino de Magra</a>
+  <div class="seals"><span>🔒 Compra segura</span><span>📦 Envio para todo o Brasil</span><span>💳 Em até 12x</span></div>
+</div><div class="r"><img src="img/hero.jpg"></div></div>
+<div class="stats"><div><b>4,9</b><span>Nota média</span></div><div><b>1.847</b><span>Avaliações</span></div><div><b>7,8g</b><span>de inulina por dose</span></div><div><b>11</b><span>Ativos naturais</span></div><p>Um shot por dia, pela manhã. Zero açúcar, sem glúten, sem lactose e 100% vegano, em sabor Abacaxi ou Limão.</p></div>
+</section>
+
+<!-- 2 PROVA -->
+<section class="prova"><div class="wrap"><span class="eb">Prova real</span><h2>Quem desinflamou o intestino, sentiu na roupa.</h2>
+<p class="sub">Relatos e registros de mulheres reais que transformaram a digestão, o volume abdominal e a relação com a comida. Resultados individuais podem variar.</p>
+<div class="vids"><div class="vid"><img src="img/barriga.jpg"></div><div class="vid"><img src="img/resultado.jpg"></div><div class="vid"><img src="img/ritual.jpg"></div><div class="vid"><img src="img/hero.jpg"></div></div></div></section>
+
+<!-- 3 COMEÇO -->
+<section><div class="wrap two"><div class="photo" style="aspect-ratio:4/5"><img src="img/comeco.jpg"></div><div>
+<span class="eb">O começo</span><h2>Não foi de um dia para o outro.</h2>
+<p class="sub">Foi na calça de alfaiataria que passou a marcar no meio da tarde, na foto em que você precisou prender a respiração, no dia em que comer uma simples salada deixou sua barriga estufada como se tivesse comido um banquete. Não é falta de força de vontade — é disbiose e inflamação intestinal. Quando as bactérias boas diminuem e a parede do intestino inflama, cortar calorias por cima não devolve a leveza que vem de dentro.</p>
+<ul class="num">
+<li><b>01</b>Você acorda com a barriga relativamente lisa, mas termina o dia estufada, parecendo grávida de meses.</li>
+<li><b>02</b>Por volta das 16h ou 17h, bate uma queda brusca de energia acompanhada de uma vontade quase incontrolável de comer doces ou carboidratos.</li>
+<li><b>03</b>Você observa amigas que comem normalmente e continuam magras, enquanto o seu corpo parece estocar absolutamente tudo.</li>
+<li><b>04</b>Seu intestino não funciona todos os dias no mesmo horário — ou, quando funciona, você sente que o esvaziamento nunca é completo.</li>
+<li><b>05</b>Você já tentou chás detox ou fibras comuns, mas cólicas, gases e o efeito rebote nunca fizeram parte do que você chama de saúde.</li>
+</ul></div></div></section>
+
+<!-- 4 PRODUTO -->
+<section class="produto"><div class="wrap two"><div>
+<span class="eb">O produto</span><h2>Uma microbiota de magra que você constrói em um copo pela manhã.</h2>
+<p class="sub">O Seja Leve For Women é o modulador intestinal e metabólico diário da Yella Life, desenvolvido para a mulher 35+ que busca abdômen desinflamado, saciedade natural e vitalidade sem fórmulas agressivas. Une 7,8g de Inulina prebiótica a um complexo de 11 ativos naturais em sabores refrescantes de Abacaxi ou Limão.</p>
+</div><div class="photo" style="aspect-ratio:1"><img src="img/produto.jpg"></div></div>
+<div class="wrap"><div class="specs">
+<div class="spec"><h3>Como age</h3><p>Chega intacto ao intestino grosso, nutre as bactérias boas, repara a mucosa inflamada e estimula a produção de Butirato e GLP-1.</p></div>
+<div class="spec"><h3>Para quem é</h3><p>Mulheres contemporâneas 35+ que sofrem com inchaço abdominal, intestino irregular, fadiga e vontade de doces, e desejam destravar o metabolismo de forma natural. 100% vegano, sem glúten e sem lactose.</p></div>
+<div class="spec"><h3>Rotina</h3><p>1 vez ao dia, preferencialmente pela manhã, dissolvendo 2 scoops em 200ml de água gelada. Lata com 22 doses.</p></div>
+</div></div></section>
+
+<!-- 5 BENEFÍCIOS -->
+<section><div class="wrap"><span class="eb">Benefícios</span><h2>O que muda no seu corpo</h2>
+<div class="bens">
+<div class="ben"><i>1</i><h3>Desinflamação abdominal profunda</h3><p>Apaga a microinflamação da parede intestinal, reduzindo o estufamento após as refeições e a retenção de líquidos.</p></div>
+<div class="ben"><i>2</i><h3>Alimentação das bactérias boas</h3><p>As 7,8g de fibras prebióticas (Inulina) servem de substrato exclusivo para multiplicar a flora protetora — a mesma encontrada em mulheres de metabolismo naturalmente enxuto.</p></div>
+<div class="ben"><i>3</i><h3>Ativação natural da saciedade (GLP-1)</h3><p>A fermentação das fibras pelas bactérias boas produz Butirato, que estimula as células L do intestino a liberarem GLP-1, prolongando a saciedade por horas.</p></div>
+<div class="ben"><i>4</i><h3>Menos vontade de doces</h3><p>Com a sinalização de GLP-1 ativa e a glicemia estabilizada pelo Picolinato de Cromo, a fome ansiosa da tarde perde a força.</p></div>
+<div class="ben"><i>5</i><h3>Mais energia e disposição real</h3><p>Um intestino desinflamado absorve micronutrientes com eficiência e para de drenar sua vitalidade em processos inflamatórios silenciosos.</p></div>
+</div><p class="legal">Resultados podem variar de pessoa para pessoa. Os benefícios descritos dependem do uso contínuo aliado a hábitos saudáveis.</p></div></section>
+
+<!-- 6 FÓRMULA -->
+<section class="formula"><div class="wrap two" style="align-items:start"><div>
+<span class="eb">Dentro da fórmula</span><h2>Cada um dos 11 ativos naturais tem uma função.</h2>
+<p class="sub" style="margin-bottom:28px">Nenhum deles está ali por acaso. Veja o que cada grupo resolve no seu organismo.</p>
+<div class="photo" style="aspect-ratio:4/4.4"><img src="img/formula.jpg"></div></div><div>
+<div class="grp"><h3>1. Ação Prebiótica &amp; Ativadora de GLP-1</h3><p>Chega intacta ao cólon para alimentar seletivamente as bactérias benéficas, gerando Butirato e estimulando a liberação natural do hormônio da saciedade (GLP-1).</p><em>Composto por: <b>Inulina (7,8g de fibra prebiótica por dose)</b></em></div>
+<div class="grp"><h3>2. Reparo da Barreira &amp; Desinflamação Intestinal</h3><p>Fecha as microfissuras da parede intestinal (intestino permeável), impedindo que toxinas vazem para o sangue, enquanto reduz gases, estufamento e inflamação abdominal.</p><em>Composto por: <b>Glutamina, Cúrcuma (Açafrão), Gengibre e Pimenta-preta (Piperina)</b></em></div>
+<div class="grp"><h3>3. Controle Glicêmico &amp; Fim da Compulsão por Doces</h3><p>Otimiza a sensibilidade à insulina e evita os picos e quedas de glicose que disparam o desejo urgente por açúcar e carboidratos.</p><em>Composto por: <b>Picolinato de Cromo</b></em></div>
+<div class="grp"><h3>4. Energia Celular, Detox &amp; Vitalidade Feminina</h3><p>Apoia a motilidade intestinal natural (sem efeito laxante), promove detox celular diário e sustenta a energia, a imunidade e o viço da pele.</p><em>Composto por: <b>Espirulina, Magnésio, Vitamina A, Vitamina C e Vitamina D</b></em></div>
+<details open><summary>Composição completa e pureza da fórmula</summary><p>Inulina (7,8g), L-Glutamina, Cúrcuma, Gengibre, Espirulina, Magnésio, Picolinato de Cromo, Pimenta-preta, Vitamina A, Vitamina C e Vitamina D. Adoçado naturalmente com stévia. 100% vegano, zero açúcar refinado, sem glúten, sem lactose e sem laxantes.</p></details>
+</div></div></section>
+
+<!-- 7 CIÊNCIA -->
+<section><div class="wrap two"><div>
+<span class="eb">Ciência aplicada</span><h2>Medido na fisiologia feminina, não em promessas vazias.</h2>
+<p class="sub">A ciência da microbiota mostra que o intestino não é apenas um tubo digestivo — é o centro de comando do seu metabolismo e dos seus hormônios. Veja as 4 vias biológicas acionadas diariamente pelo Seja Leve:</p>
+<div class="vias">
+<div class="via"><small>Via 1</small><h3>Barreira Intestinal Íntegra</h3><p>A Glutamina e os curcuminoides regeneram as junções da mucosa intestinal, barrando a endotoxemia metabólica (inflamação que trava o emagrecimento).</p></div>
+<div class="via"><small>Via 2</small><h3>Inulina → Butirato → GLP-1</h3><p>Dose clínica de 7,8g de Inulina fermentada pelas bactérias boas, elevando o Butirato endógeno e ativando receptores de saciedade natural.</p></div>
+<div class="via"><small>Via 3</small><h3>Eliminação Diária do Estrogênio</h3><p>A mulher que não vai ao banheiro todos os dias reabsorve estrogênio no intestino, desregulando todo o metabolismo. O trânsito regular elimina esse excesso hormonal.</p></div>
+<div class="via"><small>Via 4</small><h3>Estabilidade Insulínica</h3><p>Menos oscilações de glicose ao longo do dia significam menos cortisol, menos acúmulo de gordura abdominal e energia constante.</p></div>
+</div></div><div class="photo" style="aspect-ratio:4/5"><img src="img/ciencia.jpg"></div></div></section>
+
+<!-- 8 MODO DE USO -->
+<section class="uso"><div class="wrap"><span class="eb">Modo de uso</span><h2>Trinta segundos, uma vez pela manhã.</h2>
+<div class="passos">
+<div class="passo"><b>01</b><h3>Prepare o copo</h3><p>Adicione 200ml de água bem gelada (ou morna, se preferir) em um copo ou coqueteleira.</p></div>
+<div class="passo"><b>02</b><h3>Dose o produto</h3><p>Adicione 2 scoops (colher dosadora inclusa na lata — equivalente a 10g) do seu Seja Leve sabor Abacaxi ou Limão. Se o seu intestino for mais sensível, comece com 1 scoop nos primeiros dias.</p></div>
+<div class="passo"><b>03</b><h3>Misture até dissolver</h3><p>Mexa bem por alguns segundos até obter um suco leve, refrescante e naturalmente adoçado com stévia.</p></div>
+<div class="passo"><b>04</b><h3>Faça disso seu ritual</h3><p>Beba 1 vez ao dia, preferencialmente em jejum ou pela manhã, de forma contínua para nutrir suas bactérias boas todos os dias.</p></div>
+</div></div></section>
+
+<!-- 9 LINHA DO TEMPO -->
+<section><div class="wrap"><span class="eb">Linha do tempo</span><h2>O que esperar, e quando</h2>
+<p class="sub">Sem promessa de milagre. Uma expectativa honesta para você acompanhar a resposta do seu corpo.</p>
+<div class="tl">
+<div><small>Primeiros 7 a 9 dias</small><h3>Despertar do ritmo intestinal</h3><p>Você percebe o alívio na digestão, redução dos gases pós-refeição e o intestino começando a funcionar com regularidade, sem cólicas e sem correria ao banheiro.</p></div>
+<div><small>Primeiras 2 a 3 semanas</small><h3>Queda no inchaço e na vontade de doces</h3><p>Com a parede intestinal menos inflamada e a sinalização de GLP-1 ativada pelas bactérias boas, aquela fome ansiosa da tarde diminui drasticamente e as calças começam a folgar na cintura.</p></div>
+<div><small>A partir de 30 dias</small><h3>Energia estável e metabolismo no eixo</h3><p>Seu microbioma já está mais povoado por bactérias protetoras. A disposição matinal aumenta, a pele ganha viço e o controle sobre as porções acontece naturalmente.</p></div>
+<div><small>60 a 90 dias</small><h3>Consolidação do "Intestino de Magra"</h3><p>É a janela ideal de renovação da microbiota e equilíbrio metabólico profundo. Por isso o kit Leve 2, Ganhe +1 (3 potes) faz tanto sentido: cobre os 3 meses completos sem interromper sua rotina.</p></div>
+</div></div></section>
+
+<!-- 10 COMPARATIVO -->
+<section class="comp"><div class="wrap"><span class="eb">Comparativo</span><h2>Por que não é só mais uma fibra ou chá detox</h2>
+<p class="sub">Comparação entre a fórmula sinérgica do Seja Leve For Women e soluções comuns do mercado.</p>
+<table><tr><th>Critério</th><th class="y">Seja Leve For Women</th><th>Fibras comuns de farmácia</th><th>Chás Detox / Laxantes</th></tr>
+<tr><td>7,8g de Inulina prebiótica em dose real</td><td class="y">✓</td><td class="n">Varia (doses baixas)</td><td class="n">—</td></tr>
+<tr><td>Ativa naturalmente o GLP-1 (saciedade)</td><td class="y">✓</td><td class="n">—</td><td class="n">—</td></tr>
+<tr><td>11 ativos naturais (Desinflama + Nutre + Dá Energia)</td><td class="y">✓</td><td class="n">—</td><td class="n">—</td></tr>
+<tr><td>Reduz a vontade de doces (Picolinato de Cromo)</td><td class="y">✓</td><td class="n">—</td><td class="n">—</td></tr>
+<tr><td>Repara a parede intestinal (Glutamina + Cúrcuma)</td><td class="y">✓</td><td class="n">—</td><td class="n">—</td></tr>
+<tr><td>Sem cólicas, sem efeito laxante e sem rebote</td><td class="y">✓</td><td>✓</td><td class="n">— (agride a flora)</td></tr>
+<tr><td>100% vegano, sem glúten, sem lactose e com stévia</td><td class="y">✓</td><td class="n">Varia</td><td class="n">Varia</td></tr>
+</table></div></section>
+
+<!-- 11 OFERTA -->
+<section id="oferta"><div class="wrap"><span class="eb">Oferta</span><h2>Escolha o seu kit</h2>
+<p class="sub">Quanto maior o kit, menor o investimento por pote. O kit Leve 2, Ganhe +1 entrega 3 potes e cobre os 90 dias de consolidação da microbiota com Frete Grátis.</p>
+<div class="cardswrap"><div class="cards">
+<div class="card"><div class="ph"><img src="img/produto.jpg"></div><h3>1 Pote</h3><div class="s">22 doses · 1 mês · Abacaxi ou Limão</div><div class="de">&nbsp;</div><div class="por">R$ 186,00 <small>à vista</small></div><div class="s">ou 12x de R$ 19,01</div>
+<ul><li>12% de Cashback na próxima compra</li><li>100% vegano · Sem glúten e sem lactose</li><li>Envio para todo o Brasil</li></ul><a class="btn out" href="#">Comprar 1 pote</a></div>
+<div class="card on"><span class="badge">MAIS VENDIDO</span><div class="ph"><img src="img/hero.jpg"></div><h3>Leve 2, Ganhe +1</h3><div class="s">3 potes · 90 dias · Abacaxi ou Limão</div><div class="de">De R$ 558,00</div><div class="por">R$ 360,00 <small>à vista</small></div><div class="s">ou 12x de R$ 36,80 · R$ 120,00 / pote</div>
+<ul><li>1 Pote Grátis incluso no kit</li><li>Frete Grátis para todo o Brasil</li><li>Cobre o ciclo completo de 90 dias sem interrupção</li><li>12% de Cashback na próxima compra</li></ul><a class="btn" href="#">Quero o kit de 90 dias</a></div>
+<div class="card"><span class="badge g">MELHOR VALOR</span><div class="ph"><img src="img/oferta.jpg"></div><h3>Leve 3, Ganhe +1</h3><div class="s">4 potes · 120 dias · Abacaxi ou Limão</div><div class="de">De R$ 744,00</div><div class="por">R$ 465,00 <small>à vista</small></div><div class="s">ou 12x de R$ 47,53 · R$ 116,25 / pote</div>
+<ul><li>1 Pote Grátis incluso no kit</li><li>Frete Grátis para todo o Brasil</li><li>120 dias de rotina contínua (ideal para dividir ou manter estoque)</li><li>12% de Cashback na próxima compra</li></ul><a class="btn out" href="#">Quero o kit de 120 dias</a></div>
+</div></div></div></section>
+
+<!-- 12 AVALIAÇÕES -->
+<section style="background:#fff"><div class="wrap"><div class="revtop"><div><span class="eb">Avaliações verificadas</span><h2>Quem já usa</h2></div><div class="score"><b>4,9</b><span class="stars" style="color:#18181A">★★★★★</span><br><small>1.847 avaliações · 98% recomendam</small></div></div>
+<div class="revs">
+<div class="rev"><span class="stars" style="color:#18181A">★★★★★</span><span class="verif">Compra verificada</span><h3>"A diferença na saciedade e vontade de doces foi absurda"</h3><p>Tomei por 20 dias e não fico mais pensando em comida o tempo todo. Perdi 2kg sem fazer dieta, só de comer menos porque meu corpo pediu menos.</p><cite>Gisele M., 29 anos, Maceió</cite></div>
+<div class="rev"><span class="stars" style="color:#18181A">★★★★★</span><span class="verif">Compra verificada</span><h3>"Sou nutricionista, fui cética e hoje indico"</h3><p>A fórmula é incrível: inulina em dose real, glutamina, açafrão. Hoje indico para minhas pacientes com intestino irritável.</p><cite>Júlia C., Nutricionista, Curitiba</cite></div>
+<div class="rev"><span class="stars" style="color:#18181A">★★★★★</span><span class="verif">Compra verificada</span><h3>"Parei de viver inchada e perdi 6 kg em 3 meses"</h3><p>Tomei 3 meses seguidos sem dieta radical. O segredo foi desinflamar: parecia que carreguei litros embora.</p><cite>Mariana O., 42 anos, Porto Alegre</cite></div>
+<div class="rev"><span class="stars" style="color:#18181A">★★★★★</span><span class="verif">Compra verificada</span><h3>"Não fico mais com aquela fome ansiosa à tarde"</h3><p>Estou no meu segundo pote e o que me surpreendeu mesmo foi a saciedade. Parece que meu corpo entrou no eixo.</p><cite>Renata A., 42 anos, São Paulo</cite></div>
+</div></div></section>
+
+<!-- 13 FAQ -->
+<section class="faq"><div class="wrap two"><div><span class="eb">Perguntas frequentes</span><h2>Ainda tem dúvida? A gente responde.</h2></div><div>
+<details open><summary>Contém laxante ou dá cólicas?</summary><p>Não. O Seja Leve regula o intestino nutrindo as bactérias boas com 7,8g de fibras prebióticas e reparando a mucosa, sem agredir a flora e sem efeito laxante.</p></details>
+<details><summary>Como ele ativa o GLP-1 naturalmente?</summary><p>A Inulina chega intacta ao intestino grosso e é fermentada pelas bactérias benéficas, produzindo Butirato — um ácido graxo de cadeia curta que estimula as células L intestinais a liberarem o hormônio da saciedade (GLP-1).</p></details>
+<details><summary>Preciso fazer dieta restritiva para funcionar?</summary><p>Não. O objetivo é justamente devolver a sinalização natural de saciedade e reduzir a vontade de doces para que você tenha equilíbrio sem sacrifícios extremos.</p></details>
+<details><summary>Tem açúcar, glúten ou lactose?</summary><p>Não. É 100% vegano, sem glúten, sem lactose e adoçado naturalmente com stévia.</p></details>
+<details><summary>Por que escolher o kit Leve 2, Ganhe +1?</summary><p>Porque a remodelação da microbiota intestinal e a desinflamação metabólica são progressivas. Com 3 potes você garante o ciclo de 90 dias contínuos com Frete Grátis.</p></details>
+</div></div></section>
+
+<!-- 14 CONFIANÇA + FINAL -->
+<section><div class="wrap"><span class="eb">Confiança</span><h2>Comprando com segurança</h2>
+<div class="trust">
+<div class="tr"><h3>Pagamento protegido</h3><p>Checkout 100% seguro com criptografia SSL. Cartão em até 12x, Pix, Boleto e NuPay.</p></div>
+<div class="tr"><h3>Atendimento humano Yella</h3><p>Equipe dedicada via WhatsApp (11) 94020-5957 e e-mail, de 2ª a 6ª das 9h às 17h30.</p></div>
+<div class="tr"><h3>Qualidade aprovada</h3><p>Fórmula vegana, ingredientes naturais selecionados e produção em conformidade com as normas da ANVISA.</p></div>
+</div></div></section>
+<section class="final"><div class="wrap"><div class="txt">
+<span class="eb">Seu ciclo de 90 dias</span><h2>Sua poupança de saúde daqui a 90 dias começa hoje.</h2>
+<p class="sub">O resultado na microbiota e na saciedade está ligado à constância diária. O kit Leve 2, Ganhe +1 existe justamente para você não parar no meio do caminho.</p>
+<div class="preco"><b>Kit Leve 2, Ganhe +1</b> (Abacaxi ou Limão)<br>12x de R$ 36,80 ou <b>R$ 360,00 à vista</b> + Frete Grátis</div>
+<a class="btn" href="#">Garantir meu kit de 90 dias com frete grátis</a></div>
+<div class="photo"><img src="img/barriga.jpg"></div></div></section>
+<footer><img src="img/logo_w.png" alt="Yella" style="height:24px;margin-bottom:12px"><br>Suplemento alimentar. Resultados variam de pessoa para pessoa. · www.yellalife.com.br</footer>
+</body></html>
